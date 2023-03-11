@@ -105,3 +105,6 @@ dist
 
 # Editor
 .vscode
+
+# MONGO
+mongo_data
