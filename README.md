@@ -135,3 +135,7 @@ mongodb+srv://walternomas:\*\*\*\*\*@mongodb101.ircsrqb.mongodb.net/test
 ### Mongo Docker
 
 mongodb://root:\*\*\*\*\*@localhost:27017/?authMechanism=DEFAULT&tls=false
+
+## MongoDB en VSCode
+
+https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
