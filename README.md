@@ -125,3 +125,13 @@ En el Cluster, cada computadora se llama “nodo”, y no hay límites sobre cu�
 Con esto, las computadoras comienzan a actuar dentro de un solo sistema, trabajando juntas en el procesamiento, análisis e interpretación de datos e información, y/o realizando tareas simultáneas.
 
 Fuente: https://www.zendesk.com.mx/blog/cluster-que-es/
+
+## MongoDB Compass
+
+### Mongo Atlas
+
+mongodb+srv://walternomas:\*\*\*\*\*@mongodb101.ircsrqb.mongodb.net/test
+
+### Mongo Docker
+
+mongodb://root:\*\*\*\*\*@localhost:27017/?authMechanism=DEFAULT&tls=false
