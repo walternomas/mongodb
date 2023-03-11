@@ -60,3 +60,45 @@ Es una técnica que, una ves distribuida la base de datos en varios nodos, media
 #### Guía de datos no relacionales
 
 https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-nosql-database
+
+## Documentos
+
+Son la forma en la que Mongo va a guardar la información que esté dentro de un dominio (entidad).
+Ejemplos de dominios:
+
+- Los productos de un e-commerce.
+- Las clases de un curso.
+- El inventario de una tienda.
+
+Los documentos son una forma de organizar y almacenar información con un conjunto de pares **clave-valor**.
+
+```json
+{
+  "name": "sue",
+  "age": 28,
+  "status": "A",
+  "groups": ["news", "sports"]
+}
+```
+
+```json
+{
+  "_id": "5c8eccc1caa187d17ca6ed16",
+  "city": "ALPINE",
+  "zip": "35014",
+  "loc": {
+    "y": 33.331165,
+    "x": 86.208934
+  },
+  "pop": 3062,
+  "state": "AL"
+}
+```
+
+## Colecciones
+
+Las colecciones son la forma en que guardamos los documentos y que normalmente comparten datos entre sí, o al menos sabemos que tenemos una entidad o un modelo de datos que se relacionan.
+
+MongoDB almacena documentos en una colección, usualmente con campos comunes entre sí.
+
+Ejemplo: Podemos tener una colección llamada Usuarios que contengan todos los documentos de los usuarios de nuestra aplicación.
