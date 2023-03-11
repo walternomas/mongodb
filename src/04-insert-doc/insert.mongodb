@@ -1,0 +1,23 @@
+// Se crea automáticamente si no existe
+use("platzi_store")
+
+// db.products.insertOne({
+//   _id: 1,
+//   name: "Product 1",
+//   price: 1000
+// })
+
+// db.products.insertOne({
+//   _id: 2,
+//   name: "Product 2",
+//   price: 100
+// })
+
+// db.products.insertOne({
+//   name: "Product 3",
+//   price: 300
+// })
+
+db.products.find({
+  _id: ObjectId("640cf0101606f896c61d921f")
+})
