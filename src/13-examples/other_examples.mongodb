@@ -1,0 +1,11 @@
+use("sample_training")
+
+// db.trips.find({
+//   tripduration: { $lte: 100 },
+//   usertype: "Subscriber"
+// }).count()
+
+db.trips.find({
+  tripduration: { $lte: 100 },
+  usertype: "Subscriber"
+})
