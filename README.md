@@ -102,3 +102,26 @@ Las colecciones son la forma en que guardamos los documentos y que normalmente c
 MongoDB almacena documentos en una colección, usualmente con campos comunes entre sí.
 
 Ejemplo: Podemos tener una colección llamada Usuarios que contengan todos los documentos de los usuarios de nuestra aplicación.
+
+## Mongo Atlas
+
+https://www.mongodb.com/atlas
+
+### Free Cluster
+
+- 512 MB to 5 GB of storage.
+- Shared RAM.
+- Upgrade to dedicated clusters for full functionality.
+- No credit card required to start.
+
+#### Cluster
+
+Dentro de las Tecnologías de la Información (TI), Cluster significa integrar dos o más computadoras para que trabajen simultáneamente en el procesamiento de una determinada tarea.
+
+Saber qué es un Cluster consiste en entender que se trata de la conexión entre dos o más computadoras con el propósito de mejorar el rendimiento de los sistemas en la ejecución de diferentes tareas.
+
+En el Cluster, cada computadora se llama “nodo”, y no hay límites sobre cuántos nodos se pueden interconectar.
+
+Con esto, las computadoras comienzan a actuar dentro de un solo sistema, trabajando juntas en el procesamiento, análisis e interpretación de datos e información, y/o realizando tareas simultáneas.
+
+Fuente: https://www.zendesk.com.mx/blog/cluster-que-es/
