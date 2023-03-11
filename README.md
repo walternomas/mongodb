@@ -139,3 +139,45 @@ mongodb://root:\*\*\*\*\*@localhost:27017/?authMechanism=DEFAULT&tls=false
 ## MongoDB en VSCode
 
 https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
+
+## JSON vs BSON
+
+### Ventajas de JSON
+
+- Amigable.
+- Se puede leer.
+- Es un formato muy usado.
+
+### Desventajas de JSON
+
+- Basado en texto.
+- Consume mucho espacio.
+- Es limitado: string, boolean, number, arrays y sub-objetos.
+
+### Ventajas de BSON
+
+- Representación binaria de JSON.
+- No consume demasiado espacio.
+- Alto rendimiento.
+- Tipos de datos: +, date, raw binary, integer, long, float.
+
+### Desventajas de BSON
+
+- No es estándar.
+- Es un formato para la máquina.
+
+### Ejemplo JSON y BSON
+
+```json
+{
+  "hello": "world"
+}
+```
+
+```bson
+\x16\x00\x00\x00
+\x02
+hello\x00
+\x06\x00\x00\x00world\x00
+\x00
+```
