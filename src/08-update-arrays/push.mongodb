@@ -1,0 +1,23 @@
+use("platzi_store")
+
+// db.inventory.updateOne(
+//   { _id: 4 },
+//   {
+//     $push: {
+//       tags: "headphone"
+//     }
+//   }
+// )
+
+db.inventory.updateOne(
+  { _id: 4 },
+  {
+    $push: {
+      tags: {
+        $each: [ "wireless", "microphone" ]
+      }
+    }
+  }
+)
+
+db.inventory.find({ _id: 4 })
