@@ -1,0 +1,16 @@
+use("sample_training")
+
+// 1 = 0-10, A-Z
+// -1 = 10-0, Z-A
+db.zips
+  .find({ pop: { $gte: 100 } })
+  .sort({ pop: -1 })
+  .limit(2)
+  .skip(4)
+
+// CHICAGO      112047
+// BROOKLYN     111396
+// NEW YORK     106564
+// NEW YORK     100027
+// BELL GARDENS  99568
+// CHICAGO       98612
